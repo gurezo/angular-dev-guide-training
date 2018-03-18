@@ -15,4 +15,8 @@ export class AppComponent {
   toExpressions() {
     this.router.navigate(['/expressions']);
   }
+
+  toClick() {
+    this.router.navigate(['/click']);
+  }
 }
