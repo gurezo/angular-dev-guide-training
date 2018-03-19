@@ -7,13 +7,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ExpressionsComponent } from './expressions/expressions.component';
 import { ClickComponent } from './click/click.component';
+import { PropertybindingComponent } from './propertybinding/propertybinding.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     ExpressionsComponent,
-    ClickComponent
+    ClickComponent,
+    PropertybindingComponent
   ],
   imports: [
     BrowserModule,

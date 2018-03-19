@@ -4,6 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-expressions',
   // templateUrl: './expressions.component.html',
   template: `
+  <h2>Expressions</h2>
   <p>1 + 1 = {{1 + 1}}</p>
   <p>{{a}} * {{b}} = {{a * b}}</p>
   <p>Hello + Angular = {{[c, d].join(' ')}}</p>
