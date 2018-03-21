@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { ExpressionsComponent } from './components/expressions/expressions.component';
 import { ClickComponent } from './components/click/click.component';
 import { PropertybindingComponent } from './components/propertybinding/propertybinding.component';
+import { AttributebindingComponent } from './components/attributebinding/attributebinding.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { PropertybindingComponent } from './components/propertybinding/propertyb
     AppComponent,
     ExpressionsComponent,
     ClickComponent,
-    PropertybindingComponent
+    PropertybindingComponent,
+    AttributebindingComponent
   ],
   imports: [
     BrowserModule,

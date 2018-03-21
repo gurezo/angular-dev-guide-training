@@ -6,7 +6,9 @@
   <img width="300" alt="Angular Logo" src="../assets/lifewood_logo_ver4_white.png">
 </div>
 <ul>
-  <li (click)='toExpressions()'>Expressions</li>
-  <li (click)='toClick()'>Click</li>
+  <li (click)='movePage("/expressions")'>Expressions</li>
+  <li (click)='movePage("/click")'>Click</li>
+  <li (click)='movePage("/propertybinding")'>Property Binding</li>
+  <li (click)='movePage("/attributebinding")'>Attribute Binding</li>
 </ul>
 <router-outlet></router-outlet>

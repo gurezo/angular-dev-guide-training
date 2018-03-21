@@ -12,11 +12,7 @@ export class AppComponent {
     private router: Router
   ) { }
 
-  toExpressions() {
-    this.router.navigate(['/expressions']);
-  }
-
-  toClick() {
-    this.router.navigate(['/click']);
+  movePage(urls: string) {
+    this.router.navigate([urls]);
   }
 }

@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class PropertybindingComponent implements OnInit {
 
   isDisabled = false;
-  imagePath = '';
+  imagePath = 'https://angular.io/assets/images/logos/angular/angular.svg';
 
   constructor() { }
 
