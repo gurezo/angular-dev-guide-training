@@ -9,6 +9,7 @@ import { ExpressionsComponent } from './components/expressions/expressions.compo
 import { ClickComponent } from './components/click/click.component';
 import { PropertybindingComponent } from './components/propertybinding/propertybinding.component';
 import { AttributebindingComponent } from './components/attributebinding/attributebinding.component';
+import { ClassbindingComponent } from './components/classbinding/classbinding.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { AttributebindingComponent } from './components/attributebinding/attribu
     ExpressionsComponent,
     ClickComponent,
     PropertybindingComponent,
-    AttributebindingComponent
+    AttributebindingComponent,
+    ClassbindingComponent
   ],
   imports: [
     BrowserModule,
