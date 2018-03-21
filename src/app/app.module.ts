@@ -10,6 +10,7 @@ import { ClickComponent } from './components/click/click.component';
 import { PropertybindingComponent } from './components/propertybinding/propertybinding.component';
 import { AttributebindingComponent } from './components/attributebinding/attributebinding.component';
 import { ClassbindingComponent } from './components/classbinding/classbinding.component';
+import { StylebindingComponent } from './components/stylebinding/stylebinding.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { ClassbindingComponent } from './components/classbinding/classbinding.co
     ClickComponent,
     PropertybindingComponent,
     AttributebindingComponent,
-    ClassbindingComponent
+    ClassbindingComponent,
+    StylebindingComponent
   ],
   imports: [
     BrowserModule,
